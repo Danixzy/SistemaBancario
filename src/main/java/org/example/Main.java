@@ -2,35 +2,35 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-       
-        ContaCorrente cc = new ContaCorrente("12345", "João Silva", 1000, 500);
+
+        ContaCorrente cc = new ContaCorrente("54321", "Takeshi Yamamoto", 2000, 1000);
         cc.exibirInformacoes();
-        cc.sacar(1200);
+        cc.sacar(2500);
         cc.exibirInformacoes();
 
 
-        ContaPoupanca cp = new ContaPoupanca("67890", "Maria Oliveira", 2000);
+        ContaPoupanca cp = new ContaPoupanca("98765", "Aiko Tanaka", 3000);
         cp.exibirInformacoes();
-        cp.sacar(2500);
+        cp.sacar(3500);
         cp.exibirInformacoes();
 
 
-        ContaInvestimento ci = new ContaInvestimento("54321", "Carlos Souza", 5000);
+        ContaInvestimento ci = new ContaInvestimento("11223", "Haruto Suzuki", 10000);
         ci.exibirInformacoes();
-        ci.sacar(1000);
+        ci.sacar(2000);
         ci.exibirInformacoes();
 
 
-        ContaSalario cs = new ContaSalario("98765", "Ana Pereira", 1500, 300);
+        ContaSalario cs = new ContaSalario("33445", "Yui Nakamura", 2500, 500);
         cs.exibirInformacoes();
+        cs.sacar(1000);
         cs.sacar(500);
-        cs.sacar(200);
         cs.exibirInformacoes();
 
 
-        ContaInvestimentoAltoRisco ciar = new ContaInvestimentoAltoRisco("11223", "Pedro Costa", 12000);
+        ContaInvestimentoAltoRisco ciar = new ContaInvestimentoAltoRisco("55667", "Riku Kobayashi", 15000);
         ciar.exibirInformacoes();
-        ciar.sacar(3000);
+        ciar.sacar(5000);
         ciar.exibirInformacoes();
     }
 }
